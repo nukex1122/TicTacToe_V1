@@ -2,7 +2,7 @@ body{
 	text-align: center;
 	width: 100%;
 	overflow: none;
-	background-color: #FFE184;
+	background-color: #210f41;
 }
 .container{
 	margin: auto;
@@ -20,7 +20,7 @@ body{
     width:130px;
     height:130px;
     border-radius: 14px;
-    background-color: #78bec5;
+    background-color: #2c0000;
     -webkit-transition:all 0.5s;
     word-break:break-all;
     max-width: 130px;
@@ -44,6 +44,8 @@ table{
 	width: 60px;
 	height: 60px;
 	border: 10px solid #FFFFFF;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
@@ -55,25 +57,4 @@ table{
     text-align: center;
     -webkit-filter:drop-shadow(2px 2px 1.5px rgba(0, 0, 0, 0.6));
 }
-
-.O1 {
-	width: 60px;
-	height: 60px;
-	border: 10px solid #b6b5ca;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
-}
-
-.X1:after {
-	opacity: 1;
-    content: "\274c";
-    font-size:75px; 
-    color: #b6b5ca;
-    text-align: center;
-    -webkit-filter:drop-shadow(2px 2px 1.5px rgba(0, 0, 0, 0.6));
-}
-
-
 
