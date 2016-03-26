@@ -1,0 +1,32 @@
+body{
+	text-align: center;
+	width: 100%;
+	overflow: none;
+
+}
+.container{
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	width: 420px;
+	height: 420px;
+	display: inline-block;
+}
+.board{
+	width: 420px;
+	height: 420px;
+}
+.square{
+    width:130px;
+    height:130px;
+    border-radius: 14px;
+    background-color: #78bec5;
+    -webkit-transition:all 0.5s;
+}
+.square:hover{
+	background-color: #3d4250;
+	-webkit-transition:all 0.5s;
+}
+table{
+	border-spacing: 10px;
+}
