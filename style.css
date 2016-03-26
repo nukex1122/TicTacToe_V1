@@ -2,7 +2,7 @@ body{
 	text-align: center;
 	width: 100%;
 	overflow: none;
-
+	background-color: #FFE184;
 }
 .container{
 	margin: auto;
@@ -22,11 +22,39 @@ body{
     border-radius: 14px;
     background-color: #78bec5;
     -webkit-transition:all 0.5s;
+    word-break:break-all;
+    max-width: 130px;
+    max-height: 130px;
 }
+
 .square:hover{
 	background-color: #3d4250;
 	-webkit-transition:all 0.5s;
 }
 table{
 	border-spacing: 10px;
+	table-layout: fixed;
+	width: 420px;
 }
+
+.A{
+	margin: auto;
+}
+.O {
+	width: 60px;
+	height: 60px;
+	border: 10px solid #FFFFFF;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.X:after {
+    content: "\274c";
+    font-size:75px; 
+    color: #FFF;
+    text-align: center;
+    -webkit-filter:drop-shadow(2px 2px 1.5px rgba(0, 0, 0, 0.6));
+}
+
